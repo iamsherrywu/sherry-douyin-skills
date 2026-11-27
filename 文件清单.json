@@ -2,7 +2,7 @@
   "version": "v2",
   "date": "2026-10-24",
   "base": "抖音分析-脚本-审核Skill套装_2026-10-20",
-  "count": 66,
+  "count": 67,
   "files": [
     {
       "file": ".gitignore",
@@ -16,8 +16,8 @@
     },
     {
       "file": "README.md",
-      "bytes": 10283,
-      "sha256": "1ab861812e1d9f2dbfa9494f65d8d85a7dd32b985f2b10f8909100b8455c5764"
+      "bytes": 12847,
+      "sha256": "97d9813cf67164f929fc4f6bb24fb70e785ff68dfeb8944004e5e77f5cf27029"
     },
     {
       "file": "docs/design-decisions.md",
@@ -43,6 +43,11 @@
       "file": "docs/sharing-options.md",
       "bytes": 2819,
       "sha256": "6aeb46c29cdf00154d66dc4e937a7f053eec96985e130347d289146b3704f483"
+    },
+    {
+      "file": "docs/theory-and-attribution.md",
+      "bytes": 5477,
+      "sha256": "aab9b0d64c980a570c066c4d07b4fc0cca3b542cb796f3fef70c77e8f6101094"
     },
     {
       "file": "docs/validation.md",

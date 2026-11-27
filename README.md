@@ -6,11 +6,13 @@
 
 因此，我将参考视频拆解、脚本与拍摄任务单生成、成片审核连接起来，把抽象要求拆成具体问题：开头是否说明观看理由？产品信息是否清楚？创作者需要拍出哪些画面？成片是否完成了约定要求？每个判断尽量对应视频、字幕或拍摄要求中的证据，并形成可以执行的修改意见。
 
+项目以用户提供的爆款或高表现视频为参考，借鉴行为经济学、认知心理学与传播研究，提炼可迁移的内容机制，并围绕曝光、种草或互动传播等目标组织脚本与拍摄方案。
+
 这套框架让内容产出有参照、拍摄交付有约定，也让不同方案能够按同一套维度进行比较。是否成为“爆款”仍需真实发布数据验证；框架提供的是内容设计与执行验收的共同依据。
 
 这里的 **Skill** 是给 AI 使用的工作手册和配套工具。阅读作品与案例无需懂代码，也无需先安装环境。
 
-> **English summary:** A framework for aligning short-video planning, production and review around explicit criteria. It helps people compare content proposals and check delivery against an agreed brief, with human approval at key steps. Viral performance still requires real publishing data.
+> **English summary:** An AI-assisted workflow that turns user-supplied viral or high-performing reference videos into content hypotheses, scripts and creator briefs for awareness, product consideration and engagement. It draws on behavioral economics, cognitive psychology and communication research, with shared criteria for comparison and delivery review. Causal attribution requires real outcome data and a suitable comparison design.
 
 ## 30 秒了解这个作品
 
@@ -18,13 +20,29 @@
 |---|---|
 | 谁会用？ | 品牌运营、内容策划，以及负责对接视频创作者的人 |
 | 帮助处理什么？ | 对“好脚本”的理解不一、方案难比较、拍摄要求不清、返修意见难执行 |
-| 需要提供什么？ | 参考或成片视频、字幕、产品资料与目标；执行验收还需要原拍摄要求 |
+| 需要提供什么？ | 爆款等参考视频或待审成片、字幕、产品资料与目标；参考表现数据可一并提供，执行验收还需要原拍摄要求 |
 | 能拿到什么？ | 内容诊断、拍摄 Brief / Excel、按时间排列的修改意见、执行审核报告 |
 | 目前做到哪一步？ | 可运行原型与合成示范，已有本地测试；真实团队使用效果尚待试点 |
 
 **推荐阅读顺序：**[两分钟作品概览](docs/portfolio-overview.md) → [完整脱敏案例](examples/swim-haircare/README.md) → [设计取舍与实现](docs/design-decisions.md)。
 
 本项目用于展示 **AI Transformation Intern** 相关的流程拆解、人机分工、原型落地与验证思路。部分文档、脚本修订与示例使用了 AI 协助，不宣称独立训练模型或完成真实企业部署。
+
+## 爆款参考、业务目标与理论依据
+
+拿到用户提供的爆款或高表现视频后，先定位具体画面、台词与节奏，分析哪些设计可能影响“不划走、看完、点赞、评论、收藏、转发”，再筛选适用于当前产品的内容机制。输入是本地视频、已有分析报告或 Excel；样本是否属于“爆款”需结合用户提供的表现数据与比较基线确认，未提供数据时只作为参考素材。
+
+可围绕以下目标调整内容分析和 Brief 重点。这些是策划用途，实际曝光、种草或传播效果需另行验证。
+
+| 业务目标 | 内容策划重点 | 后续验证方向 |
+|---|---|---|
+| 曝光与认知 | 开头能否留人、品牌或产品是否清楚、是否具备易理解和可传播的内容线索 | 曝光与覆盖数据；留存、完播作为过程指标，品牌认知另行测量 |
+| 产品种草 | 目标人群与场景是否匹配、产品价值是否具体、使用信息是否值得保留 | 有效咨询、商品访问或意向反馈；收藏是参考信号，不能直接等同购买意愿 |
+| 互动与传播 | 是否给出具体的评论理由、收藏用途，以及值得转给谁的内容 | 按事先约定的口径比较点赞、评论、收藏与转发数据 |
+
+理论框架借鉴**行为经济学、认知心理学与传播研究**中的概念，例如信息缺口、损失框架、自我关联、加工流畅性与社会传播，用于组织“内容元素 → 可能影响的用户决策 → 待验证指标”。研究出处、具体应用与外推边界见[理论依据与归因说明](docs/theory-and-attribution.md)。独立的[行为机制拆解工具](skills/sherry-douyin-behav/SKILL.md)可配合主流程使用，不参与八维总分。
+
+**归因怎样开展：**先提出有素材证据的机制假设，再在预算允许时设计单变量 A/B 或策略与技巧的交叉比较，并记录执行差异。当前提供的是拆解、比较设计与复盘指南；效果归因还需要真实结果数据、可比的对照和合适的分析。单条爆款视频无法确认各元素贡献了多少流量。
 
 ## 从输入到交付，怎样工作
 
