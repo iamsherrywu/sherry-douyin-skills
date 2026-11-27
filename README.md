@@ -137,7 +137,3 @@ setup.sh                    可移动的安装入口
 ```
 
 维护标识：Sherry。本项目仅用于作品展示，保留全部版权；复用需另行取得书面授权，见 [LICENSE](LICENSE)。
-
-本仓库公开完整 Skill、脚本、测试与脱敏案例。授权范围不因公开而改变，详见 [LICENSE](LICENSE)；材料范围与处理记录见[脱敏检查记录](docs/privacy-review.md)。
-
-首页的信息组织参考了同类项目的流程表、能力入口与验证边界写法，参考及取舍见[同类项目展示调研](docs/github-presentation-references.md)。
