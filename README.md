@@ -2,17 +2,11 @@
 
 **为 AI 短视频策划与交付，建立一套可解释的共同标准。**
 
-**实际应用：已投入使用，累计支持产出 80 条视频。**
-
 这个项目从“用 AI 写脚本”出发。在实际使用中，“更有吸引力”“有爆款感”很难直接变成清晰的生成要求。品牌、策划、创作者和 AI 对“好脚本”的理解可能不同，导致生成的方案难以比较、拍摄要求难以传达，成片也缺少共同的验收依据。
 
 因此，我将参考视频拆解、脚本与拍摄任务单生成、成片审核连接起来，把抽象要求拆成具体问题：开头是否说明观看理由？产品信息是否清楚？创作者需要拍出哪些画面？成片是否完成了约定要求？每个判断尽量对应视频、字幕或拍摄要求中的证据，并形成可以执行的修改意见。
 
-项目以用户提供的爆款或高表现视频为参考，借鉴行为经济学、认知心理学与传播研究，提炼可迁移的内容机制，并围绕曝光、种草或互动传播等目标组织脚本与拍摄方案。
-
-这套框架让内容产出有参照、拍摄交付有约定，也让不同方案能够按同一套维度进行比较。是否成为“爆款”仍需真实发布数据验证；框架提供的是内容设计与执行验收的共同依据。
-
-这里的 **Skill** 是给 AI 使用的工作手册和配套工具。阅读作品与案例无需懂代码，也无需先安装环境。
+项目以用户提供的爆款或高表现视频为参考，借鉴行为经济学、认知心理学与传播研究，提炼可迁移的内容机制，并围绕曝光、种草或互动传播等目标组织脚本与拍摄方案。这套框架让内容产出有参照、拍摄交付有约定，也让不同方案能够按同一套维度进行比较。
 
 > **English summary:** An AI-assisted workflow that turns user-supplied viral or high-performing reference videos into content hypotheses, scripts and creator briefs for awareness, product consideration and engagement. It draws on behavioral economics, cognitive psychology and communication research, with shared criteria for comparison and delivery review. The workflow is in practical use and has supported the production of 80 videos. Causal attribution requires real outcome data and a suitable comparison design.
 
@@ -27,8 +21,6 @@
 | 目前做到哪一步？ | 已投入实际使用，累计支持产出 80 条视频；公开案例采用合成素材 |
 
 **推荐阅读顺序：**[两分钟作品概览](docs/portfolio-overview.md) → [完整脱敏案例](examples/swim-haircare/README.md) → [设计取舍与实现](docs/design-decisions.md)。
-
-本项目用于展示 **AI Transformation Intern** 相关的流程拆解、人机分工、工具落地与实际使用。部分文档、脚本修订与示例使用了 AI 协助。
 
 ## 爆款参考、业务目标与理论依据
 
