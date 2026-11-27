@@ -1,0 +1,339 @@
+{
+  "version": "v2",
+  "date": "2026-10-24",
+  "base": "抖音分析-脚本-审核Skill套装_2026-10-20",
+  "count": 66,
+  "files": [
+    {
+      "file": ".gitignore",
+      "bytes": 111,
+      "sha256": "700a949d1f0623e8d67d9e19e9cfaebd02637d3d90beff9d5878f86d7ed03494"
+    },
+    {
+      "file": "LICENSE",
+      "bytes": 617,
+      "sha256": "c25c7cf075ab843ccad4d86b101daed69f0b0369e322c312aac0c5a5c3fe6e07"
+    },
+    {
+      "file": "README.md",
+      "bytes": 8893,
+      "sha256": "ae4f874f5a910d25707682744b7fd660a32e6a52dc4e9347e924f79b2ed8955d"
+    },
+    {
+      "file": "docs/design-decisions.md",
+      "bytes": 2552,
+      "sha256": "f742c6543e32c7bdb1a66235c5de3458adfa10aa939ea2bf977fd117645c9d6d"
+    },
+    {
+      "file": "docs/github-presentation-references.md",
+      "bytes": 1626,
+      "sha256": "fe98baac58834a42824c939ef920b6362a1111daacc2c780eb2af26d72d3bbf4"
+    },
+    {
+      "file": "docs/portfolio-overview.md",
+      "bytes": 4531,
+      "sha256": "88269fb9b861e8f9e215e6b320265221a801fcea8b1f8ebc17db89fedc5bb4dc"
+    },
+    {
+      "file": "docs/privacy-review.md",
+      "bytes": 2430,
+      "sha256": "92cd3074c2b44c1bdd7fff49de94d6ee6a6ab02e0dc6db9f3957625c5d41ceca"
+    },
+    {
+      "file": "docs/sharing-options.md",
+      "bytes": 2819,
+      "sha256": "6aeb46c29cdf00154d66dc4e937a7f053eec96985e130347d289146b3704f483"
+    },
+    {
+      "file": "docs/validation.md",
+      "bytes": 3293,
+      "sha256": "2a9aa38c5c292d01863fef369e7289793275ead1c91a323e7ad1dc0bec10fe48"
+    },
+    {
+      "file": "examples/swim-haircare/README.md",
+      "bytes": 4278,
+      "sha256": "990276aefc8965c9f5a6b202fd8d86f50410c1f4e4f82509a82192e1e777d43e"
+    },
+    {
+      "file": "examples/swim-haircare/artifacts/L1_008s.jpg",
+      "bytes": 110745,
+      "sha256": "b0a1151ca7d79b075df558549d95166d07186389a5ddcccf17e58cb7955c27d9"
+    },
+    {
+      "file": "examples/swim-haircare/artifacts/L1_009s.jpg",
+      "bytes": 110752,
+      "sha256": "3b910ede4b24b2fcaf652040c804612d9737917b5976ec43910640ff3640c363"
+    },
+    {
+      "file": "examples/swim-haircare/artifacts/L2_asr_01_0.30s.jpg",
+      "bytes": 82897,
+      "sha256": "42761bdc659b5cc9066bdb74b3e93748c8a3ef84467cee6266b84a08b3945e06"
+    },
+    {
+      "file": "examples/swim-haircare/artifacts/L2_asr_01_1.30s.jpg",
+      "bytes": 82907,
+      "sha256": "7e8e863106ea53caac714210247d84e375a80fe4b03f770194417d701f61148e"
+    },
+    {
+      "file": "examples/swim-haircare/artifacts/L2_asr_01_2.30s.jpg",
+      "bytes": 82907,
+      "sha256": "bda20d78c3dd53656dc8bd39e564d2660441b9ae2973fc3d2cf7b4eb8860a0d4"
+    },
+    {
+      "file": "examples/swim-haircare/artifacts/L2_asr_02_3.20s.jpg",
+      "bytes": 82920,
+      "sha256": "7362acc0cc2659b6a4098457dd1d0c3929da9fc2c47649a7a147a922e7a40a10"
+    },
+    {
+      "file": "examples/swim-haircare/artifacts/L2_asr_02_4.20s.jpg",
+      "bytes": 97510,
+      "sha256": "eba4b4594b073203f06a9bf1c6c868c07bbf44ba3d27c4b6ffa42bb96ea664bb"
+    },
+    {
+      "file": "examples/swim-haircare/artifacts/L2_asr_02_5.20s.jpg",
+      "bytes": 97510,
+      "sha256": "01400374db65a83e972b0d53c87e9f03e3534af921fd01fed3e90b5d6944aa45"
+    },
+    {
+      "file": "examples/swim-haircare/artifacts/L2_asr_02_6.20s.jpg",
+      "bytes": 97509,
+      "sha256": "a2e7fdb407e11d20cbf62c1ee7c9e8bd889fb0ae66b8caea942f3fc95e1e05f6"
+    },
+    {
+      "file": "examples/swim-haircare/artifacts/L2_asr_02_7.14s.jpg",
+      "bytes": 97498,
+      "sha256": "ca621b72150140df06a0c22b20db115fd7d093b061fb3f8d813a6c0765f4a514"
+    },
+    {
+      "file": "examples/swim-haircare/artifacts/L2_asr_03_7.50s.jpg",
+      "bytes": 97505,
+      "sha256": "68a0a0e70d1a4b102b414956377f9283836ad444dd91a8075fc1d89f09301687"
+    },
+    {
+      "file": "examples/swim-haircare/artifacts/L2_asr_03_8.50s.jpg",
+      "bytes": 110733,
+      "sha256": "40b25687152c0a41b6c627e7f19e6f428441be5b89609603a4a060e100ce2dc1"
+    },
+    {
+      "file": "examples/swim-haircare/artifacts/L2_asr_03_9.57s.jpg",
+      "bytes": 110749,
+      "sha256": "2a3e14c017dda9119b5e7dd942c967668b148ff19ff54d668cf0787001a782ce"
+    },
+    {
+      "file": "examples/swim-haircare/artifacts/L2_asr_04_10.20s.jpg",
+      "bytes": 110752,
+      "sha256": "3b910ede4b24b2fcaf652040c804612d9737917b5976ec43910640ff3640c363"
+    },
+    {
+      "file": "examples/swim-haircare/artifacts/L2_asr_04_11.20s.jpg",
+      "bytes": 110749,
+      "sha256": "2a3e14c017dda9119b5e7dd942c967668b148ff19ff54d668cf0787001a782ce"
+    },
+    {
+      "file": "examples/swim-haircare/artifacts/L2_asr_04_11.90s.jpg",
+      "bytes": 110770,
+      "sha256": "e7035fb7bf70ee59e112b3070b9f6b1a1aae394f633aab84bcdc2fcea67ed091"
+    },
+    {
+      "file": "examples/swim-haircare/artifacts/L3_head_0.0s.jpg",
+      "bytes": 82805,
+      "sha256": "1677a9f07a515f9460586852a726aef6e9d452e8e1e740f9dde8b3a4510bbadf"
+    },
+    {
+      "file": "examples/swim-haircare/artifacts/L3_head_1.0s.jpg",
+      "bytes": 82906,
+      "sha256": "a33d13157e65092804ebe16cc2bab4f2f6aaba60cbb02deb4a8e5ab7cf97d7ee"
+    },
+    {
+      "file": "examples/swim-haircare/artifacts/asr.srt",
+      "bytes": 292,
+      "sha256": "5125539e04c89d708fdd7f53e30fddb59af20e2425515f2ed1795b115dca1eef"
+    },
+    {
+      "file": "examples/swim-haircare/artifacts/mapping.json",
+      "bytes": 3691,
+      "sha256": "fccf3ca9503cb6e25979eeabd25ab1d72df96123a71f0a04e2f338086867db52"
+    },
+    {
+      "file": "examples/swim-haircare/artifacts/media.json",
+      "bytes": 252,
+      "sha256": "abea533d8c36c9164dea606c5a8832d2cf815acaf75ae78f29aae51623d7baa8"
+    },
+    {
+      "file": "examples/swim-haircare/artifacts/scenes.json",
+      "bytes": 696,
+      "sha256": "c137619572e458c313952515a683be5066dc2161c7e58b80e290984ae2ab736c"
+    },
+    {
+      "file": "examples/swim-haircare/artifacts/summary.md",
+      "bytes": 802,
+      "sha256": "98a185a7abd3dbab01974557af4a790128f7d0aa9b445db760ba6f36bcfd4970"
+    },
+    {
+      "file": "examples/swim-haircare/asr-historical.srt",
+      "bytes": 317,
+      "sha256": "5c1359bd1c252cea9516faf3b43a89296bf0eddb716d2fe156b460c6674d4b78"
+    },
+    {
+      "file": "examples/swim-haircare/audit.md",
+      "bytes": 13280,
+      "sha256": "61ed3beb4518612a13a0fb0d9828c7f8f714558d4f353134ebb3a5a681bb5706"
+    },
+    {
+      "file": "examples/swim-haircare/brief-preview.png",
+      "bytes": 190206,
+      "sha256": "9570fa752afb5337fff360e7a4ff068a37672471766ef34d832ca666f5aeb6b4"
+    },
+    {
+      "file": "examples/swim-haircare/brief.xlsx",
+      "bytes": 17427,
+      "sha256": "d7dad1dd5d7c8c8bf4f67a892ca39b467a2b11f08fb03462e1be624556d36a16"
+    },
+    {
+      "file": "examples/swim-haircare/diagnosis.md",
+      "bytes": 22290,
+      "sha256": "517b483e204d37dec21dc3787f02ae810df824f4114ad26c08c49d99b2197e17"
+    },
+    {
+      "file": "examples/swim-haircare/edits.md",
+      "bytes": 6234,
+      "sha256": "b1fc108d731737d7405f35ae6e5acfe3c4380487acc644880a2e73ad7bf10553"
+    },
+    {
+      "file": "requirements-asr.txt",
+      "bytes": 127,
+      "sha256": "532db9aa961335d09aede9ac5e61e83bd901e49695faa7f65d2921b83665a561"
+    },
+    {
+      "file": "requirements.txt",
+      "bytes": 84,
+      "sha256": "86e0c6ce2c162967da9960082b1b354914ec9dc39c16223c1cf72fda31ce66cb"
+    },
+    {
+      "file": "setup.sh",
+      "bytes": 2338,
+      "sha256": "c3265348b87587a328875b0065e49b50892fd90afb43a3e0b4825186b374ca2d"
+    },
+    {
+      "file": "skills/sherry-brief/SKILL.md",
+      "bytes": 12824,
+      "sha256": "33ea4bd5f82ae80d062f1c72c5b948377dd63f22b8bb23157ba63699181f5c2b"
+    },
+    {
+      "file": "skills/sherry-douyin-behav/SKILL.md",
+      "bytes": 14078,
+      "sha256": "2f318b894edab8679de1711f390ab69957a7d3367d9827819307411ab6e9b365"
+    },
+    {
+      "file": "skills/sherry-douyin-comment/SKILL.md",
+      "bytes": 10573,
+      "sha256": "9efb7514dab209024284a77f959479b18e66654a256c232eeb5b70c6a7d892d7"
+    },
+    {
+      "file": "skills/sherry-douyin-fav/SKILL.md",
+      "bytes": 10395,
+      "sha256": "ff9954f70166a36d571fb1f465dc22b4e9a222a636403a8451f5f9fbb08ae968"
+    },
+    {
+      "file": "skills/sherry-douyin-kaitou/SKILL.md",
+      "bytes": 6648,
+      "sha256": "ca5309b27d25627358d004b6fe44816e6edcec43893e8bc81a2fd2dc614c7b72"
+    },
+    {
+      "file": "skills/sherry-douyin-like/SKILL.md",
+      "bytes": 9375,
+      "sha256": "a59ecaadadccafe76493cb8d53deabc420e272ec6284742cef220433f81f1e19"
+    },
+    {
+      "file": "skills/sherry-douyin-review/SKILL.md",
+      "bytes": 11205,
+      "sha256": "220d75709e179f04bc24cb2b5ed2abb4badbfd1630aed434d4355cf3f522cc27"
+    },
+    {
+      "file": "skills/sherry-douyin-review/references/diagnostic-common.md",
+      "bytes": 8814,
+      "sha256": "a085a8d8ecf72b00e83488def1c4e871f2d4e4efb707c8a897fc940d0c5843a8"
+    },
+    {
+      "file": "skills/sherry-douyin-review/scripts/prepare_video.py",
+      "bytes": 16744,
+      "sha256": "576979dd8c8fd31442074de53a5b83fb7633750ed98b61bc5326c619659d1efa"
+    },
+    {
+      "file": "skills/sherry-douyin-review/scripts/transcribe_srt.py",
+      "bytes": 1956,
+      "sha256": "dc760f28f4639cd99e2064fa90b7cf06000ce8f2835625e463e61ed8823d4922"
+    },
+    {
+      "file": "skills/sherry-douyin-share/SKILL.md",
+      "bytes": 9956,
+      "sha256": "b796082a509bd1730d89b3d4498dfc35fdb7991744461ae3e70ea1e6615c5253"
+    },
+    {
+      "file": "skills/sherry-douyin-shenhe/SKILL.md",
+      "bytes": 14632,
+      "sha256": "95e6550fb45ed710db4170ab83e0bb696b842b8162991dd38e2d5d6a493151be"
+    },
+    {
+      "file": "skills/sherry-douyin-shijue/SKILL.md",
+      "bytes": 9644,
+      "sha256": "5833590f2fb93e012e4575e322879c3aab87ab8e3eef528bb4a542841d16b98d"
+    },
+    {
+      "file": "skills/sherry-douyin-wanbo/SKILL.md",
+      "bytes": 10502,
+      "sha256": "ffefacdb1d2a682d61a82c3be133ca2b861f42b4c73fa81e8fb1279982e2ed3a"
+    },
+    {
+      "file": "skills/sherry-douyin-wenzi/SKILL.md",
+      "bytes": 8053,
+      "sha256": "c0901444f25913eb9b2f92ebaf94f056872cc5e12f7f5bc9d9ed7f498db86c2e"
+    },
+    {
+      "file": "tests/test_installation.py",
+      "bytes": 2213,
+      "sha256": "0cf29d3dd9acaac56ecb03993e74d7114e4f422856ff024344d0bb2db6063f0f"
+    },
+    {
+      "file": "tests/test_preprocessing.py",
+      "bytes": 5804,
+      "sha256": "14e7faf5bf303e644d18afdd2069d37cce42a5160ccbe78622f4872e79a748e2"
+    },
+    {
+      "file": "使用说明.md",
+      "bytes": 8264,
+      "sha256": "79efe5a0fd8bd8bf80dc1bcd594a355666ba17115b5b36dc700e304c2aa34932"
+    },
+    {
+      "file": "测试素材/Brief_口播文案.md",
+      "bytes": 607,
+      "sha256": "83663bc7a1dd145cf511fde5e52bb10881ad72b1ba043016040f73321de443f7"
+    },
+    {
+      "file": "测试素材/Brief_必拍画面参考.png",
+      "bytes": 121430,
+      "sha256": "bfd125f639bbfd9bc4af11c2083958150087f2809367d5456237d622826dd914"
+    },
+    {
+      "file": "测试素材/README.md",
+      "bytes": 1032,
+      "sha256": "7f75563dfb1c473eb8b8dbcddddede9160f0945bba14f288d4b95c367480c7d2"
+    },
+    {
+      "file": "测试素材/样例_泳后护发.mp4",
+      "bytes": 356052,
+      "sha256": "4ad71c4340471289fb51415bd1729d97934b847f3f038b5dfd8a0b00b11ad028"
+    },
+    {
+      "file": "测试素材/样例_泳后护发.srt",
+      "bytes": 292,
+      "sha256": "5125539e04c89d708fdd7f53e30fddb59af20e2425515f2ed1795b115dca1eef"
+    },
+    {
+      "file": "验收清单.md",
+      "bytes": 3740,
+      "sha256": "456ed5362741b380ba1a1986c7ed64bfa25e3241f176032fd616cd632c16ec09"
+    }
+  ],
+  "updated": "2026-11-27"
+}

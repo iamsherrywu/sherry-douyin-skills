@@ -1,0 +1,12 @@
+.venv/
+venv/
+outputs/
+__pycache__/
+*.py[cod]
+.DS_Store
+测试素材/.voiced
+.claude/
+.codex/
+.env
+.env.*
+*.log

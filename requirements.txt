@@ -1,0 +1,2 @@
+# Brief 的 Excel 输出；视频预处理本身只用 Python 标准库。
+openpyxl

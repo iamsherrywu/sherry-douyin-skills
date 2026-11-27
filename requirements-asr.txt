@@ -1,0 +1,4 @@
+-r requirements.txt
+# 沿用原套装的可选转写依赖；安装依赖不会下载语音模型。
+faster-whisper>=1.2
+av<16

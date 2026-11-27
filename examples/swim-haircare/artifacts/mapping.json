@@ -1,0 +1,160 @@
+{
+  "video": "../../../测试素材/样例_泳后护发.mp4",
+  "sha256": "4ad71c4340471289fb51415bd1729d97934b847f3f038b5dfd8a0b00b11ad028",
+  "duration": 12.0,
+  "scale": 540,
+  "frames": [
+    {
+      "time": 0.0,
+      "file": "L3_head_0.0s.jpg",
+      "layer": "L3",
+      "srt_index": null,
+      "text": ""
+    },
+    {
+      "time": 0.3,
+      "file": "L2_asr_01_0.30s.jpg",
+      "layer": "L2",
+      "srt_index": 1,
+      "text": "泳池回来千万别直接冲水洗头"
+    },
+    {
+      "time": 1.0,
+      "file": "L3_head_1.0s.jpg",
+      "layer": "L3",
+      "srt_index": 1,
+      "text": "泳池回来千万别直接冲水洗头"
+    },
+    {
+      "time": 1.3,
+      "file": "L2_asr_01_1.30s.jpg",
+      "layer": "L2",
+      "srt_index": 1,
+      "text": "泳池回来千万别直接冲水洗头"
+    },
+    {
+      "time": 2.3,
+      "file": "L2_asr_01_2.30s.jpg",
+      "layer": "L2",
+      "srt_index": 1,
+      "text": "泳池回来千万别直接冲水洗头"
+    },
+    {
+      "time": 3.2,
+      "file": "L2_asr_02_3.20s.jpg",
+      "layer": "L2",
+      "srt_index": 1,
+      "text": "泳池回来千万别直接冲水洗头"
+    },
+    {
+      "time": 4.2,
+      "file": "L2_asr_02_4.20s.jpg",
+      "layer": "L2",
+      "srt_index": 2,
+      "text": "用这款去氯洗沐，先抹后等两分钟再冲"
+    },
+    {
+      "time": 5.2,
+      "file": "L2_asr_02_5.20s.jpg",
+      "layer": "L2",
+      "srt_index": 2,
+      "text": "用这款去氯洗沐，先抹后等两分钟再冲"
+    },
+    {
+      "time": 6.2,
+      "file": "L2_asr_02_6.20s.jpg",
+      "layer": "L2",
+      "srt_index": 2,
+      "text": "用这款去氯洗沐，先抹后等两分钟再冲"
+    },
+    {
+      "time": 7.141,
+      "file": "L2_asr_02_7.14s.jpg",
+      "layer": "L2",
+      "srt_index": 2,
+      "text": "用这款去氯洗沐，先抹后等两分钟再冲"
+    },
+    {
+      "time": 7.5,
+      "file": "L2_asr_03_7.50s.jpg",
+      "layer": "L2",
+      "srt_index": 3,
+      "text": "用了三天氯味完全没了"
+    },
+    {
+      "time": 8.0,
+      "file": "L1_008s.jpg",
+      "layer": "L1",
+      "srt_index": 3,
+      "text": "用了三天氯味完全没了"
+    },
+    {
+      "time": 8.5,
+      "file": "L2_asr_03_8.50s.jpg",
+      "layer": "L2",
+      "srt_index": 3,
+      "text": "用了三天氯味完全没了"
+    },
+    {
+      "time": 9.0,
+      "file": "L1_009s.jpg",
+      "layer": "L1",
+      "srt_index": 3,
+      "text": "用了三天氯味完全没了"
+    },
+    {
+      "time": 9.572,
+      "file": "L2_asr_03_9.57s.jpg",
+      "layer": "L2",
+      "srt_index": 3,
+      "text": "用了三天氯味完全没了"
+    },
+    {
+      "time": 10.2,
+      "file": "L2_asr_04_10.20s.jpg",
+      "layer": "L2",
+      "srt_index": 4,
+      "text": "你家宝宝游完泳怎么洗头？"
+    },
+    {
+      "time": 11.2,
+      "file": "L2_asr_04_11.20s.jpg",
+      "layer": "L2",
+      "srt_index": 4,
+      "text": "你家宝宝游完泳怎么洗头？"
+    },
+    {
+      "time": 11.9,
+      "file": "L2_asr_04_11.90s.jpg",
+      "layer": "L2",
+      "srt_index": 4,
+      "text": "你家宝宝游完泳怎么洗头？"
+    }
+  ],
+  "cues": [
+    {
+      "index": 1,
+      "start": 0.3,
+      "end": 3.242,
+      "text": "泳池回来千万别直接冲水洗头"
+    },
+    {
+      "index": 2,
+      "start": 3.2,
+      "end": 7.141,
+      "text": "用这款去氯洗沐，先抹后等两分钟再冲"
+    },
+    {
+      "index": 3,
+      "start": 7.5,
+      "end": 9.572,
+      "text": "用了三天氯味完全没了"
+    },
+    {
+      "index": 4,
+      "start": 10.2,
+      "end": 12.0,
+      "text": "你家宝宝游完泳怎么洗头？"
+    }
+  ]
+}

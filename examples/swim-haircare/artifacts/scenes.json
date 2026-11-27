@@ -1,0 +1,36 @@
+{
+  "threshold": 0.15,
+  "cut_times": [
+    4.0,
+    8.0
+  ],
+  "cut_scores": {
+    "4.0": 0.203,
+    "8.0": 0.162
+  },
+  "shots": [
+    {
+      "start": 0.0,
+      "end": 4.0,
+      "duration": 4.0
+    },
+    {
+      "start": 4.0,
+      "end": 8.0,
+      "duration": 4.0
+    },
+    {
+      "start": 8.0,
+      "end": 12.0,
+      "duration": 4.0
+    }
+  ],
+  "shot_count": 3,
+  "avg_shot": 4.0,
+  "longest_shot": {
+    "start": 0.0,
+    "end": 4.0,
+    "duration": 4.0
+  },
+  "note": "基于相邻帧差异的自动检测（阈值见 threshold，硬切通常 0.15-0.6，分值越高越可信）。缓慢推拉、同机位换动作会漏检，字幕弹出可能误检，判断时结合帧图。"
+}

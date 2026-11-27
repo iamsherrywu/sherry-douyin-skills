@@ -1,0 +1,10 @@
+{
+  "duration": 12.0,
+  "width": 540,
+  "height": 960,
+  "fps": 30.0,
+  "has_audio": true,
+  "codec": "h264",
+  "sha256": "4ad71c4340471289fb51415bd1729d97934b847f3f038b5dfd8a0b00b11ad028",
+  "source": "../../../测试素材/样例_泳后护发.mp4"
+}
