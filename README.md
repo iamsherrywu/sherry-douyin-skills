@@ -2,6 +2,8 @@
 
 **为 AI 短视频策划与交付，建立一套可解释的共同标准。**
 
+**实际应用：已投入使用，累计支持产出 80 条视频。**
+
 这个项目从“用 AI 写脚本”出发。在实际使用中，“更有吸引力”“有爆款感”很难直接变成清晰的生成要求。品牌、策划、创作者和 AI 对“好脚本”的理解可能不同，导致生成的方案难以比较、拍摄要求难以传达，成片也缺少共同的验收依据。
 
 因此，我将参考视频拆解、脚本与拍摄任务单生成、成片审核连接起来，把抽象要求拆成具体问题：开头是否说明观看理由？产品信息是否清楚？创作者需要拍出哪些画面？成片是否完成了约定要求？每个判断尽量对应视频、字幕或拍摄要求中的证据，并形成可以执行的修改意见。
@@ -12,7 +14,7 @@
 
 这里的 **Skill** 是给 AI 使用的工作手册和配套工具。阅读作品与案例无需懂代码，也无需先安装环境。
 
-> **English summary:** An AI-assisted workflow that turns user-supplied viral or high-performing reference videos into content hypotheses, scripts and creator briefs for awareness, product consideration and engagement. It draws on behavioral economics, cognitive psychology and communication research, with shared criteria for comparison and delivery review. Causal attribution requires real outcome data and a suitable comparison design.
+> **English summary:** An AI-assisted workflow that turns user-supplied viral or high-performing reference videos into content hypotheses, scripts and creator briefs for awareness, product consideration and engagement. It draws on behavioral economics, cognitive psychology and communication research, with shared criteria for comparison and delivery review. The workflow is in practical use and has supported the production of 80 videos. Causal attribution requires real outcome data and a suitable comparison design.
 
 ## 30 秒了解这个作品
 
@@ -22,11 +24,11 @@
 | 帮助处理什么？ | 对“好脚本”的理解不一、方案难比较、拍摄要求不清、返修意见难执行 |
 | 需要提供什么？ | 爆款等参考视频或待审成片、字幕、产品资料与目标；参考表现数据可一并提供，执行验收还需要原拍摄要求 |
 | 能拿到什么？ | 内容诊断、拍摄 Brief / Excel、按时间排列的修改意见、执行审核报告 |
-| 目前做到哪一步？ | 可运行原型与合成示范，已有本地测试；真实团队使用效果尚待试点 |
+| 目前做到哪一步？ | 已投入实际使用，累计支持产出 80 条视频；公开案例采用合成素材 |
 
 **推荐阅读顺序：**[两分钟作品概览](docs/portfolio-overview.md) → [完整脱敏案例](examples/swim-haircare/README.md) → [设计取舍与实现](docs/design-decisions.md)。
 
-本项目用于展示 **AI Transformation Intern** 相关的流程拆解、人机分工、原型落地与验证思路。部分文档、脚本修订与示例使用了 AI 协助，不宣称独立训练模型或完成真实企业部署。
+本项目用于展示 **AI Transformation Intern** 相关的流程拆解、人机分工、工具落地与实际使用。部分文档、脚本修订与示例使用了 AI 协助。
 
 ## 爆款参考、业务目标与理论依据
 
@@ -76,7 +78,7 @@ flowchart TD
 
 内容诊断回答“哪些地方值得改”，执行验收回答“有没有按约定拍”。缺证据时保留“无法判断”或“待补证据”，补材料不等于要求补拍；已核实的问题则按报告修改后重新审核。
 
-各模块也可单独使用：已有视频可直接诊断，已有 Brief 和成片可直接验收。真实发布后的效果比较属于后续试点验证，需另外收集同口径数据；内容评分与审核通过本身不能证明会成为爆款。
+各模块也可单独使用：已有视频可直接诊断，已有 Brief 和成片可直接验收。真实发布后的效果比较需补充同口径数据与验证记录；内容评分与审核通过本身不能证明会成为爆款。
 
 ## 实际交付长什么样
 
@@ -154,7 +156,7 @@ python3 -B -m unittest discover -s tests -v
 
 ## 验证范围
 
-已覆盖本地安装、目录移动与重复安装、预处理边界、标准合成样例，以及缺证据的规则场景。当前没有真实投放数据、效果提升幅度、评分准确率或工时收益证据；静帧与逐字稿也不能证明音频听感或真实用户心理。
+项目已投入实际使用，累计支持产出 80 条视频。为保护商业信息，仓库公开合成演示与配套工具；本次公开验证覆盖本地安装、目录移动与重复安装、预处理边界、标准合成样例，以及缺证据的规则场景。使用规模由项目维护者提供，公开材料尚未包含投放效果、评分准确率或工时收益的量化验证记录。静帧与逐字稿也不能证明音频听感或真实用户心理。
 
 实际环境、测试结果、历史转写与本次演示的区别见[验证记录](docs/validation.md)。示例中的产品名称和台词是测试输入，不作为商品功效事实。
 

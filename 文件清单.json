@@ -16,43 +16,43 @@
     },
     {
       "file": "README.md",
-      "bytes": 12847,
-      "sha256": "97d9813cf67164f929fc4f6bb24fb70e785ff68dfeb8944004e5e77f5cf27029"
+      "bytes": 13107,
+      "sha256": "841e65086e2e59420605c4ba2cb8f2d97df1a3d16223c1e2c8a20c8670bebe7e"
     },
     {
       "file": "docs/design-decisions.md",
-      "bytes": 2552,
-      "sha256": "f742c6543e32c7bdb1a66235c5de3458adfa10aa939ea2bf977fd117645c9d6d"
+      "bytes": 2652,
+      "sha256": "8e42b4c8731aa44c19eadc6f8c2067d760ced8ac826d66f6b583a198cbc06a88"
     },
     {
       "file": "docs/github-presentation-references.md",
-      "bytes": 1626,
-      "sha256": "fe98baac58834a42824c939ef920b6362a1111daacc2c780eb2af26d72d3bbf4"
+      "bytes": 1647,
+      "sha256": "d3a77ecefc88781f0ffe45e5cf9009e71ca74138efb3b0ccb0ee8fd51694658f"
     },
     {
       "file": "docs/portfolio-overview.md",
-      "bytes": 4531,
-      "sha256": "88269fb9b861e8f9e215e6b320265221a801fcea8b1f8ebc17db89fedc5bb4dc"
+      "bytes": 4966,
+      "sha256": "e26a1c78f9d4edbd35d099da10c13d0fe5c6ceec5196ea914a487996afe46fa6"
     },
     {
       "file": "docs/privacy-review.md",
-      "bytes": 2430,
-      "sha256": "92cd3074c2b44c1bdd7fff49de94d6ee6a6ab02e0dc6db9f3957625c5d41ceca"
+      "bytes": 2536,
+      "sha256": "7c8fc575c68fc65e0396b943e50862be55e09dc9e6b4886fbc62a489141486b0"
     },
     {
       "file": "docs/sharing-options.md",
-      "bytes": 2819,
-      "sha256": "6aeb46c29cdf00154d66dc4e937a7f053eec96985e130347d289146b3704f483"
+      "bytes": 2940,
+      "sha256": "c01fcd5c10b4337bee190f22b5d9700829c5d1a3e67c900dd63a024ed9d9e292"
     },
     {
       "file": "docs/theory-and-attribution.md",
-      "bytes": 5477,
-      "sha256": "aab9b0d64c980a570c066c4d07b4fc0cca3b542cb796f3fef70c77e8f6101094"
+      "bytes": 5492,
+      "sha256": "70394e1a8bdf9392cc39daf1af868c98e0e438d358c4c3253db8665739ff7f1c"
     },
     {
       "file": "docs/validation.md",
-      "bytes": 3293,
-      "sha256": "2a9aa38c5c292d01863fef369e7289793275ead1c91a323e7ad1dc0bec10fe48"
+      "bytes": 3682,
+      "sha256": "c22679668fd6d7f6ba601869e1b5b0aeee947f72394deccde65c1d840f73424e"
     },
     {
       "file": "examples/swim-haircare/README.md",
